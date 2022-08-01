@@ -31,7 +31,7 @@ img {
   font-size: x-large;
   font-weight: bold;
   padding: 5px 5px;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 200px;
   margin-left: 60px;
   border-bottom: 5px solid darkgrey;
@@ -61,6 +61,15 @@ h2 {
 .icons {
   width: 40px;
   padding: 2px;
+  border-bottom: 5px solid darkgrey;
+  background-color: antiquewhite;
+  transition: transform 0.5s;
+}
+
+.icons:hover {
+  box-shadow: 0px 0px 15px wheat;
+  transform: translate(px, -5px);
+  transition: transform 0.5s;
 }
 
 .texts {
